@@ -1,0 +1,95 @@
+.title {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.menu-item {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-goku);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.radio-button {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.menu-item1 {
+  gap: var(--gap-5xs);
+}
+.menu-item1,
+.menu-item2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-gohan);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.circle {
+  position: absolute;
+  height: 66.67%;
+  width: 66.67%;
+  top: 16.67%;
+  right: 16.67%;
+  bottom: 16.67%;
+  left: 16.67%;
+  border-radius: var(--br-56xl);
+  border: 0.8px solid var(--light-trunks);
+  box-sizing: border-box;
+}
+.menu-item10 {
+  width: 284px;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-gohan);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-family: var(--font-avertastd-regular);
+}
+.menu-item-parent {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+}
+.menu-item-module,
+.menu-item-parent,
+.popover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-item-module {
+  align-self: stretch;
+}
+.popover {
+  width: 150px;
+  position: relative;
+  box-shadow: var(--light-shadow-lg);
+  border-radius: var(--br-xs);
+  background-color: var(--light-gohan);
+  height: 205px;
+  overflow-y: auto;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--light-bulma);
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+}

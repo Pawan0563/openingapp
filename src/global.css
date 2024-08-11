@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AvertaStd-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-avertastd-regular: AvertaStd-Regular;
+  --paragraph-ui-type-text-2xl-s: Figtree;
+  --font-lato: Lato;
+  --font-montserrat: Montserrat;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-17xl: 36px;
+  --font-size-xs: 12px;
+  --paragraph-ui-type-text-2xl-s-size: 24px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --light-gohan: #fff;
+  --light-trunks: #999ca0;
+  --color-darkgray-100: #999;
+  --color-gray-100: #fafafb;
+  --color-gray-200: #858585;
+  --light-bulma: #231f20;
+  --color-gray-300: #0d0d0d;
+  --light-beerus-hover: rgba(0, 0, 0, 0.08);
+  --light-goku: #f5f5f5;
+  --common-minimal: #f2f2f2;
+  --color-black: #000;
+  --color-royalblue-100: #346bd4;
+  --light-piccolo-piccolo: #0e6fff;
+  --color-mediumslateblue-100: #7975ff;
+  --color-mediumslateblue-200: #605bff;
+  --color-dimgray: #6e6e6e;
+  --supportive-dodoria-100: #d33030;
+  --color-dodgerblue: #5b93ff;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-119xl: 138px;
+  --gap-base: 16px;
+  --gap-sm: 14px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-4xs: 9px;
+  --padding-27xl: 46px;
+  --padding-34xl: 53px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-10xs: 3px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-56xl: 75px;
+  --br-4xl: 23px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-8xs: 5px;
+  --br-81xl: 100px;
+  --br-9xs: 4px;
+  --br-10xs: 3px;
+  --br-7xs: 6px;
+
+  /* Effects */
+  --light-shadow-lg: 0px 8px 24px -6px rgba(0, 0, 0, 0.16),
+    0px 0px 1px rgba(0, 0, 0, 0.4);
+  --card-shadow: 0px 6px 20px rgba(0, 0, 0, 0.03);
+}
