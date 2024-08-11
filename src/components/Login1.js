@@ -1,10 +1,12 @@
 import { useCallback, useState } from "react";
-import { TextField, Button } from "@mui/material";
+import {
+  TextField,
+  Button,
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import ThemeSwitch from "./ThemeSwitch";
 import "./Login1.css";
-import GoogleSignInButton from "./GoogleSignInButton";
 
 const Login1 = ({ className = "" }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -19,11 +21,7 @@ const Login1 = ({ className = "" }) => {
   };
 
   return (
-    <div
-      className={`login ${className} ${
-        isDarkMode ? "dark-mode" : "light-mode"
-      }`}
-    >
+    <div className={`login ${className} ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
       <img className="side-right-icon" alt="" src="/side-right@2x.png" />
       <div className="group-parent">
         <img className="frame-child" alt="" src="/group-200.svg" />
@@ -84,8 +82,15 @@ const Login1 = ({ className = "" }) => {
               <span className="register-here">Register here</span>
             </b>
           </form>
-          <Button className="google-sign-in">
-            <GoogleSignInButton />
+          <Button
+            className="google-sign-in"
+            disableElevation
+            color="primary"
+            size="medium"
+            variant="contained"
+            sx={{ borderRadius: "0px 0px 0px 0px", width: 197.6, height: 32.9 }}
+          >
+            Sign in with Google
           </Button>
           <div className="apple-sign-in">
             <div className="white">
